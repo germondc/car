@@ -1,0 +1,30 @@
+BATT - 12V perm
+B+   - goes +12V when EFI relay is on (relay goes on when MREL goes +12V)
+NSW  - start +12V reardless of gear
+STA  - +12V start when in park / neutral
+IGSW - +12V whwen ignition is on
+E01  - ground
+EO2  - ground
+
+VC   - 12V
+VTA1 - throttle position
+
+NE+  - (black) crank speed sensor
+NE-  - (white) crank speed sensor
+G1+  - (red) left cam sensor
+G1-  - (green) left cam sensor
+G2+  - (yellow) right cam sensor
+G2-  - (white) right cam sensor
+SP2+ - (green) speed sensor (transfer case)
+SP2- - (red) speed sensor (transfer case)
+NCO+ - (yellow) speed sensor (bellhousing side)
+NCO- - (blue) speed sensor (bellhousing side)
+
+S1   - (red) solenoid 1
+S2   - (white) solenoid 2
+
+S1 S2   G
+ 1  0   1
+ 1  1   2
+ 0  1   3
+ 0  0   4
